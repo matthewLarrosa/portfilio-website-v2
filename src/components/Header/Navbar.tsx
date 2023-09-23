@@ -1,8 +1,13 @@
 import { useState, useEffect } from "react";
+import resume from "/Users/mattf/Projects/portfilio-website-v2/src/assets/Matthew Larrosa Resume.pdf";
 import "./Navbar.css";
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const openInNewTab = (url: string | URL | undefined) => {
+    window.open(url, "_blank", "noreferrer");
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -21,6 +26,13 @@ function Navbar() {
           <a href="#home" className="headerTitle">
             Matthew Larrosa.
           </a>
+          <div className="navLinks">
+          <a href="" className="navLinksText">Home</a>
+          <a href="" className="navLinksText">Education</a>
+          <a href="" className="navLinksText">Projects</a>
+          <a href="" className="navLinksText">Experience</a>
+          <a href="" className="navLinksText">Contact</a>
+        </div>
         </div>
         <div>
           <button
@@ -37,22 +49,38 @@ function Navbar() {
           <nav className={`nav ${isNavOpen ? "nav-open" : "nav-closed"}`}>
             <ul>
               <li className="links">
-                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#home">Home</a>
+                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#home">
+                  Home
+                </a>
               </li>
               <li className="links">
-                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#education">Education</a>
+                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#education">
+                  Education
+                </a>
               </li>
               <li className="links">
-                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#project">Projects</a>
+                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#projects">
+                  Projects
+                </a>
               </li>
               <li className="links">
-                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#experience">Experience</a>
+                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#experience">
+                  Experience
+                </a>
               </li>
               <li className="links">
-                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#contact">Contact</a>
+                <a onClick={() => setIsNavOpen(!isNavOpen)} href="#contact">
+                  Contact
+                </a>
               </li>
               <li>
-                <a className="resume" href="">Resume</a>
+                <a
+                  onClick={() => openInNewTab(resume)}
+                  className="resume"
+                  href=""
+                >
+                  Resume
+                </a>
               </li>
             </ul>
           </nav>
