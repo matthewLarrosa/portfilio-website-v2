@@ -27,12 +27,30 @@ function Navbar() {
             Matthew Larrosa.
           </a>
           <div className="navLinks">
-          <a href="" className="navLinksText">Home</a>
-          <a href="" className="navLinksText">Education</a>
-          <a href="" className="navLinksText">Projects</a>
-          <a href="" className="navLinksText">Experience</a>
-          <a href="" className="navLinksText">Contact</a>
-        </div>
+            <li className="navLinksText">
+              <a href="#home">Home</a>
+            </li>
+            <li className="navLinksText">
+              <a href="#education">Education</a>
+            </li>
+            <li className="navLinksText">
+              <a href="#projects">Projects</a>
+            </li>
+            <li className="navLinksText">
+              <a href="#experience">Experience</a>
+            </li>
+            <li className="navLinksText">
+              <a href="#contact">Contact</a>
+            </li>
+            <li className="navLinksTextResume">
+              <a
+                onClick={() => openInNewTab(resume)}
+                href=""
+              >
+                Resume
+              </a>
+            </li>
+          </div>
         </div>
         <div>
           <button
@@ -73,7 +91,7 @@ function Navbar() {
                   Contact
                 </a>
               </li>
-              <li>
+              <li className="links">
                 <a
                   onClick={() => openInNewTab(resume)}
                   className="resume"
