@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import resume from "/Users/mattf/Projects/portfilio-website-v2/src/assets/Matthew Larrosa Resume.pdf";
+import resume from "/src/assets/Matthew Larrosa Resume.pdf";
 import "./Navbar.css";
 
 function Navbar() {
@@ -22,34 +22,33 @@ function Navbar() {
   return (
     <>
       <div className="navContainer">
-        <div className="navBar">
-          <a href="#home" className="headerTitle">
-            Matthew Larrosa.
-          </a>
-          <div className="navLinks">
-            <li className="navLinksText">
-              <a href="#home">Home</a>
-            </li>
-            <li className="navLinksText">
-              <a href="#education">Education</a>
-            </li>
-            <li className="navLinksText">
-              <a href="#projects">Projects</a>
-            </li>
-            <li className="navLinksText">
-              <a href="#experience">Experience</a>
-            </li>
-            <li className="navLinksText">
-              <a href="#contact">Contact</a>
-            </li>
-            <li className="navLinksTextResume">
-              <a
-                onClick={() => openInNewTab(resume)}
-                href=""
-              >
-                Resume
-              </a>
-            </li>
+        <div className="navWrapper">
+          <div className="navBar">
+            <a href="#home" className="headerTitle">
+              Matthew Larrosa.
+            </a>
+            <div className="navLinks">
+              <li className="navLinksText">
+                <a href="#home">Home</a>
+              </li>
+              <li className="navLinksText">
+                <a href="#education">Education</a>
+              </li>
+              <li className="navLinksText">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="navLinksText">
+                <a href="#experience">Experience</a>
+              </li>
+              <li className="navLinksText">
+                <a href="#contact">Contact</a>
+              </li>
+              <li className="navLinksTextResume">
+                <a onClick={() => openInNewTab(resume)} href="">
+                  Resume
+                </a>
+              </li>
+            </div>
           </div>
         </div>
         <div>
