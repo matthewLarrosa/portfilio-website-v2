@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1009px) {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.heroContainer{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: screen;
+}
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    height: auto;
+    width: screen;    
+}
+.picture{
+    height: 20rem;
+    width: 20rem;
+}
+.name{
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.typedContainer{
+    margin-top: 1rem;
+}
+.typed{
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.socialsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    border: solid 1px;
+    border-radius: .5rem;
+    border-color: #dfe3e8;
+    background-color: #f6f8fa;
+    margin-top: 2rem;
+}
+.socialsText1{
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.socialsText2{
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.socialsContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.linkedin{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+.github{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+}
+@media only screen and (min-width: 1010px) {
+
+}
