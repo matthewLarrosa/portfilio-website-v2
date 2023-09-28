@@ -32,24 +32,24 @@ function Hero() {
 
   return (
     <div className="heroContainer">
-      <div className="heroWrapper">
-        <div className="heroContent">
-          <img className="picture" src={headshot} alt="headshot" />
-          <div>
-            <div className="name">Hello I'm Matt</div>
-            <div className="typedContainer">
-              <span className="typed" ref={el}></span>
+      <div className="heroContent">
+        <img className="picture" src={headshot} alt="headshot" />
+        <div className="heroWrap">
+          <div className="name">Hello I'm Matt</div>
+          <div className="typedContainer">
+            <span className="typed" ref={el}></span>
+          </div>
+          <div className="socialsContainer">
+            <div className="socialsText1">
+              Stay in the loop with my activity
             </div>
-            <div className="socialsContainer">
-            <div className="socialsText1">Stay in the loop with my activity</div>
             <div className="socialsText2">through my socials</div>
-              <div className="socialsContent">
-                <div className="linkedin">
-                  <SiLinkedin />
-                </div>
-                <div className="github">
-                  <SiGithub />
-                </div>
+            <div className="socialsContent">
+              <div className="linkedin">
+                <SiLinkedin />
+              </div>
+              <div className="github">
+                <SiGithub />
               </div>
             </div>
           </div>
