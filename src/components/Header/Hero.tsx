@@ -46,10 +46,10 @@ function Hero() {
             <div className="socialsText2">through my socials</div>
             <div className="socialsContent">
               <div className="linkedin">
-                <SiLinkedin />
+                <a className="linkedinLogo" href="https://www.linkedin.com/in/matthew-larrosa-19-9999ml/"><SiLinkedin /></a>
               </div>
               <div className="github">
-                <SiGithub />
+                <a className="githubLogo" href="https://github.com/matthewLarrosa"><SiGithub /></a>
               </div>
             </div>
           </div>
