@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./Hero.css";
+// @ts-ignore
 import headshot from "/src/assets/headshot.png";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
