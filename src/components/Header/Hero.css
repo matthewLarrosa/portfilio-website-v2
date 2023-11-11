@@ -160,8 +160,16 @@
         font-size: 3rem;
         margin: 1rem;
     }
+    .linkedinLogo{
+        text-decoration: none;
+        color: black;
+    }
     .github{
         font-size: 3rem;
         margin: 1rem;
+    }
+    .githubLogo{
+        text-decoration: none;
+        color: black;
     }
 }
