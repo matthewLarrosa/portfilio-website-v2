@@ -21,16 +21,23 @@
         .experienceTitle{
             height: auto;
             width: auto;
+            margin-top: 20px;
             padding: 10px;
         }
         .amexHeader{
             height: auto;
             width: auto;
-            margin-top: 10px;
+            margin-top: 15px;
             align-self: flex-start;
         }
-        .amexHeader{
-            
+        .amexGroup{
+            margin-top: 20px;
+        }
+        .amexDescription{
+            font-family: 'Inter', sans-serif;
+            margin-top: 20px;
+            font-size: 15px;
+
         }
     }
     @media only screen and (min-width: 1010px) {
