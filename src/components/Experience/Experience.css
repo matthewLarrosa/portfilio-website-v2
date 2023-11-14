@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1009px) {
+@media only screen and (max-width: 699px) {
         *{
             margin: 0px;
             padding: 0px;
@@ -8,7 +8,7 @@
             flex-direction: column;
             align-items: center;
             margin-top: 2rem;
-            width: screen;
+            width: auto;
             height: auto;
             background-color: #F6F8FA;
         }
@@ -31,6 +31,9 @@
             align-self: flex-start;
         }
         .amexGroup{
+            border-radius: 15px;
+            height: auto;
+            width: auto;
             margin-top: 20px;
         }
         .amexDescription{
@@ -38,6 +41,12 @@
             margin-top: 20px;
             font-size: 15px;
 
+        }
+        .upcomingExperiences{
+            display: flex;
+            width: 80%;
+            height: auto;
+            flex-direction: column;
         }
         .upcomingTitle{
             margin-top: 30px;
@@ -71,9 +80,176 @@
             margin-bottom: 50px;
         }
     }
-    @media only screen and (min-width: 1010px) {
-       *{
-        margin: 0px;
-        padding: 0px;
-       }
+    @media only screen and (min-width: 701px) {
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .expContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2rem;
+            width: auto;
+            height: auto;
+            background-color: #F6F8FA;
+        }
+        .experiences{
+            display: flex;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 5px 30px 30px;
+        }
+        .experienceTitle{
+            margin-top: 30px;
+        }
+        .amexHeader{
+            height: auto;
+            width: auto;
+            margin-top: 30px;
+        }
+        .amexGroup{
+            border-radius: 15px;
+            height: auto;
+            width: 300px;
+            margin-top: 20px;
+        }
+        .amexDescription{
+            font-family: 'Inter', sans-serif;
+            margin-top: 20px;
+            font-size: 15px;
+            width: 300px;
+        }
+        .upcomingExperiences{
+            display: flex;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 30px 30px 5px;
+        }
+        .upcomingTitle{
+            margin-top: 30px;
+        }
+        .googleHeader{
+            margin-top: 30px;
+        }
+        .googleDescription{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .bullet{
+            color: #4F4F4F;
+            width: 300px;
+        }
+        .breakHeader{
+            margin-top: 30px;
+        }
+        .breakDescription{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .AMEX2Header{
+            margin-top: 30px;
+        }
+        .AMEX2Description{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .sectionContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: auto;
+            height: auto;
+            background-color: #F6F8FA;
+        }
+        .expContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: auto;
+            height: 1000;
+        }
+        .experiences{
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 80px 30px 30px;
+        }
+        .experienceTitle{
+            margin-top: 0px;
+        }
+        .amexHeader{
+            height: auto;
+            width: auto;
+            margin-top: 30px;
+        }
+        .amexGroup{
+            border-radius: 15px;
+            height: auto;
+            width: 300px;
+            margin-top: 20px;
+        }
+        .amexDescription{
+            font-family: 'Inter', sans-serif;
+            margin-top: 20px;
+            font-size: 15px;
+            width: 300px;
+        }
+        .upcomingExperiences{
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 30px 30px 80px;
+        }
+        .upcomingTitle{
+            margin-top: 0px;
+        }
+        .googleHeader{
+            margin-top: 30px;
+        }
+        .googleDescription{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .bullet{
+            color: #4F4F4F;
+            width: 300px;
+        }
+        .breakHeader{
+            margin-top: 30px;
+        }
+        .breakDescription{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .AMEX2Header{
+            margin-top: 30px;
+        }
+        .AMEX2Description{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
     }
