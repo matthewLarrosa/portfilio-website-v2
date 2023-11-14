@@ -9,7 +9,7 @@
             align-items: center;
             margin-top: 2rem;
             width: screen;
-            height: 1000px;
+            height: auto;
             background-color: #F6F8FA;
         }
         .experiences{
@@ -38,6 +38,37 @@
             margin-top: 20px;
             font-size: 15px;
 
+        }
+        .upcomingTitle{
+            margin-top: 30px;
+        }
+        .googleHeader{
+            margin-top: 30px;
+        }
+        .googleDescription{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .bullet{
+            color: #4F4F4F;
+        }
+        .breakHeader{
+            margin-top: 30px;
+        }
+        .breakDescription{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .AMEX2Header{
+            margin-top: 30px;
+        }
+        .AMEX2Description{
+            font-family: 'Inter', sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+            margin-bottom: 50px;
         }
     }
     @media only screen and (min-width: 1010px) {
