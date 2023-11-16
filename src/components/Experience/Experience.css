@@ -234,6 +234,7 @@
         .bullet{
             color: #4F4F4F;
             width: 300px;
+            font-family: 'Inter', sans-serif;
         }
         .breakHeader{
             margin-top: 30px;
