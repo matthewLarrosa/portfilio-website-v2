@@ -1,0 +1,30 @@
+@media only screen and (max-width: 699px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .educationContainer{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            width: auto;
+            height: auto;
+            background-color: #ffffff;
+    }
+    .educationTitle{
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+}
