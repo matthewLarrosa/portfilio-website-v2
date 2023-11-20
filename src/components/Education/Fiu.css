@@ -5,20 +5,84 @@
     }
     .educationContainer{
         display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 2rem;
-            width: auto;
-            height: auto;
-            background-color: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        width: auto;
+        height: auto;
+        background-color: #ffffff;
     }
     .educationTitle{
         height: auto;
-        width: auto;
-        margin-top: 20px;
+        width: 80%;
+        margin-top: 2rem;
         padding: 10px;
     }
+    .fiuContainer{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 80%;
+        margin-top: 0.9rem;
+        padding: 10px;
+    }
+    .fiuCrest{
+        margin-right: 0.5rem;
+        margin-bottom: .5rem;
+    }
+    .fiuTitle{
+        width: auto;
+        height: auto;
+    }
+    .FIU{
+        color: #081E3F;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+    }
+    .GRAD{
 
+    }
+    .educationDescription{
+        font-family: 'Inter', sans-serif;
+        height: auto;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 30px;
+        text-align: left;
+    }
+    .orgContainer{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .init{
+        margin: 1rem;
+    }
+    .breakThroughTech{
+        margin: 1rem;
+    }
+    .shellhacksContainer{
+        margin-top: 1rem;
+        display: flex;
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+    }
+    .shellhacksPicture{
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .shellhacks2023{
+        font-weight: 100;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        align-self: end;
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
