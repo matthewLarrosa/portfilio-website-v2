@@ -40,6 +40,7 @@
     .fiuContainer{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         height: auto;
         width: auto;
         margin-top: 0.9rem;
@@ -55,21 +56,28 @@
     .fiuCrest{
         height: 90px;
         width: 90px;
-        margin-right: 0.5rem;
-        margin-bottom: .5rem;
+        height: auto;
+        width: auto;
     }
     .fiuTitle{
         width: auto;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-left:10px;
     }
     .FIU{
         color: #081E3F;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
         font-family: 'Inter', sans-serif;
+        margin-top: 5px;
     }
     .GRAD{
-
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
     }
     .educationDescription{
         font-family: 'Inter', sans-serif;
@@ -111,6 +119,30 @@
         align-self: end;
         margin-top: 10px;
     }
+}
+
+@media only screen and (min-width: 630px) {
+    .fiuTitle{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-left:10px;
+    }
+    .FIU{
+        color: #081E3F;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        margin-top: 10px;
+    }
+    .GRAD{
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+    }
+    
 }
 
 @media only screen and (min-width: 800px) {
@@ -183,9 +215,6 @@
         font-size: 24px;
         font-weight: 700;
         font-family: 'Inter', sans-serif;
-    }
-    .GRAD{
-
     }
     .educationDescription{
         font-family: 'Inter', sans-serif;
@@ -327,9 +356,6 @@
         font-size: 24px;
         font-weight: 700;
         font-family: 'Inter', sans-serif;
-    }
-    .GRAD{
-
     }
     .educationDescription{
         font-family: 'Inter', sans-serif;
