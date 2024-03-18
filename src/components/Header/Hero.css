@@ -1,0 +1,204 @@
+@media (min-width: 350px) and (max-width: 1020px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header-container {
+    height: 770px;
+    width: 100%;
+    background-color: #e2dfd4;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    z-index: 3;
+  }
+  .name {
+    max-width: 512px;
+    padding-top: 30px;
+    font-size: 64px;
+    font-family: "Inter";
+    font-weight: 700;
+    text-align: center;
+    color: #463f3a;
+    z-index: 3;
+  }
+  .job-title {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+    text-align: center;
+    color: #8a817c;
+    z-index: 3;
+  }
+  .year {
+    padding-top: 10px;
+    font-size: 32px;
+    font-family: "Inter";
+    font-weight: 700;
+    text-align: center;
+    color: #8a817c;
+    z-index: 3;
+  }
+  .moon-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .grain {
+    height: 770px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    opacity: 0.20;
+  }
+  .navbar-index {
+    position: relative;
+    z-index: 4;
+  }
+  .moon {
+    position: fixed;
+    top: 37%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Adjust the width as needed */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+  }
+  .circle {
+    position: fixed;
+    width: 90vw; /* Adjust the size using viewport units */
+    height: 90vw; /* Adjust the size using viewport units */
+    max-width: 560px; /* Maximum width for the circle */
+    max-height: 560px;
+    background: linear-gradient(to left, #463f3a, rgba(53, 24, 24, 0));
+    opacity: 0.25;
+    border-radius: 50%;
+
+    animation-name: rotateAnimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+@media (min-width: 1020px) and (max-width: 1920px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header-container {
+    height: 770px;
+    width: 100%;
+    background-color: #e2dfd4;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    z-index: 3;
+  }
+  .name {
+    max-width: 1020px;
+    padding-top: 30px;
+    font-size: 80px;
+    font-family: "Inter";
+    font-weight: 700;
+    text-align: center;
+    color: #463f3a;
+    z-index: 3;
+  }
+  .job-title {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+    text-align: center;
+    color: #8a817c;
+    z-index: 3;
+  }
+  .year {
+    padding-top: 10px;
+    font-size: 32px;
+    font-family: "Inter";
+    font-weight: 700;
+    text-align: center;
+    color: #8a817c;
+    z-index: 3;
+  }
+  .moon-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .grain {
+    height: 1080px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    opacity: 0.80;
+  }
+  .navbar-index {
+    position: relative;
+    z-index: 4;
+  }
+  .moon {
+    position: fixed;
+    top: 37%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Adjust the width as needed */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+  }
+  .circle {
+    position: fixed;
+    width: 90vw; /* Adjust the size using viewport units */
+    height: 90vw; /* Adjust the size using viewport units */
+    max-width: 560px; /* Maximum width for the circle */
+    max-height: 560px;
+    background: linear-gradient(to left, #463f3a, rgba(53, 24, 24, 0));
+    opacity: 0.25;
+    border-radius: 50%;
+
+    animation-name: rotateAnimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

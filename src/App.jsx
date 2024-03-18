@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './components/Header/Hero.jsx'
 
 function App() {
   return (
-    <div>hi</div>
+    <div>
+      <Header/>
+    </div>
   )
 }
 
